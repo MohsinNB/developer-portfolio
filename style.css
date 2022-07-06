@@ -1,9 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+img{
+    width: 80%;
+}
 h1{
     font-size: 50px;
 }
 span{
     color: orange;
+}
+section{
+    display: flex;
+    justify-content: space-between ;
+    padding: 30px;
+}
+.first-text{
+    width: 50%;
+}
+.first-image{
+    width: 50%;
+    text-align: right;
 }
