@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 img{
     width: 80%;
@@ -13,9 +15,10 @@ span{
 .top-area{
     display: flex;
     justify-content: space-between ;
-    padding: 30px;
+    padding: 40px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 .first-text{
     width: 50%;
@@ -33,4 +36,28 @@ span{
 .first-image{
     width: 50%;
     text-align: right;
+}
+
+.dream-big{
+    display: flex;
+    justify-content: space-between ;
+    padding: 40px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-image{
+    width: 50%;
+}
+.second-text{
+    width: 50%;
+}
+.second-text a{
+    text-decoration: none;
+    border: 2px solid coral;
+    padding: 8px 25px;
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(240, 161, 132) coral);
 }
